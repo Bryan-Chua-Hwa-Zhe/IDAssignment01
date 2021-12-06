@@ -1,0 +1,81 @@
+.navbar { /*Navigation Bar*/
+    display: flex;
+    background-color: red;
+    height: 132px;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: larger;
+    font-weight: 700;
+    border: solid black;
+  }
+  
+  .navbar a { /*Navigation Bar Items*/
+    display: flex;
+    color: white;
+    flex: 10%;
+    justify-content: center;
+    padding-left: 20px;
+  }
+  
+  .main-flex{ /*Flex used for the entire page*/
+    display: flex;
+    height: 600px;
+    width: auto;
+    flex-wrap: wrap;
+    padding-top: 10px;
+  }
+  
+  .side-flex{ /*Flex for left side of the page*/
+    display: flex;
+    flex-wrap: wrap;
+    flex: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .other-flex{ /*Flex for right side of the page*/
+    display: flex;
+    flex-wrap: wrap;
+    flex: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main-flex-hollowKnight{ /*Special flexbox for the hollow knight flexbox*/
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    background-image: url("https://wallpaperwaifu.com/wp-content/uploads/2020/03/hollow-knight-voidheart-thumb-1500x844.jpg");
+    background-size: cover;
+  }
+  
+  .main-flex-silkSong{ /*Special flexbox for the silksong flexbox*/
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    background-image: url("https://1.bp.blogspot.com/-a6D96LSIN48/X-3CTecKMPI/AAAAAAAAK-k/pnEApUINJM8l-q54U0TbqrWmiOIlEMWbgCNcBGAsYHQ/s1200/Hollow%2BKnight.jpg");
+    background-size: cover;
+  }
+  
+  .font-size{ /*Just for particular font sizes for paragraphs*/
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .merchandise-flex{ /*Special Flexbox for the Merchandise*/
+    display: flex;
+    flex: 33%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .merch-font{ /*Special Font for Merchandise*/
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-size: 20px;
+  }

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TeamCherryGames.Home</title> <!--Home Page-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="CSS/Normalize.css">
+        <link rel="stylesheet" href="CSS/assignment.css">
+        <style>
+            @media screen and (max-width: 576px){ /*Resizing for different screens, specifically phones*/
+                .main-flex{
+                    flex-direction: column;
+                    height: fit-content;
+                    flex-wrap: wrap;
+                }
+                .side-flex{
+                    flex: 100%;
+                    justify-content: center !important;
+                    align-content: center !important;
+                }
+                .other-flex{
+                    flex: 100%;
+                    justify-content: center !important;
+                    align-content: center !important;
+                }
+                .main-flex-hollowKnight{
+                    flex-direction: column;
+                    height: fit-content;
+                    flex-wrap: wrap;
+                }
+                .main-flex-silkSong{
+                    flex-direction: column;
+                    height: fit-content;
+                    flex-wrap: wrap;
+                }
+                .font-size{
+                    font-size: 10px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <nav> <!--Navigation bar for the entire website-->
+        <div class="navbar">
+            <a href="index.html">Team Cherry Games</a> <!--This Current Page-->
+            <a href="index2.html">Merchandise</a> <!--Merchandise page-->
+            <a href="index3.html">About</a> <!--About Page-->
+        </div>
+        </nav>
+
+        <section-teamCherry> <!--Section featuring company's basic information-->
+        <div class="main-flex" style="background-color: whitesmoke; border: solid;">
+            <div class="side-flex">
+                <img src ="Images/TEAMCHERRY-LOGO.png" alt="TeamCherryLogo" style="max-width: 50%;"> <!--Company Logo-->
+            </div>
+            <div class="other-flex" style="justify-content: flex-start;"> <!--Company Description-->
+                <p class="font-size" style='font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;'>
+                Team Cherry is an indie games developer in Adelaide, South Australia.
+                <br>
+                <br>
+                Our mission is to build crazy, exciting worlds for you to explore and conquer.</p>
+            </div>
+        </div>
+        </section-teamCherry>
+
+        <section-hollowKnight> <!--Section featuring the company's game, Hollow Knight-->
+        <div class="main-flex-hollowKnight" style="border: solid;">
+            <div class="side-flex">
+                <img src ="Images/HollowKnightLogo.png" alt="HollowKnightTitleImage" style="max-width: 50%;"> <!--Hollow Knight Logo-->
+            </div>
+            <div class="other-flex"> <!--Hollow Knight Description-->
+                <p class="font-size" style="color: white;">
+                    Forge your own path in Hollow Knight! 
+                <br>
+                    An epic action adventure through a vast ruined kingdom of insects and heroes. 
+                <br>
+                    Explore twisting caverns, battle tainted creatures and befriend bizarre bugs, 
+                <br>
+                    all in a classic, hand-drawn 2D style.
+                </p>
+            </div>
+        </div>
+        </section-hollowKnight>
+
+        <section-silkSong> <!--Section featuring Hollow Knight's sequel, SilkSong-->
+        <div class="main-flex-silkSong" style="border: solid;">
+            <div class="side-flex">
+                <img src ="Images/SilkSongLogo.png" alt="SilkSongTitleImage" style="max-width: 50%;"> <!--SilkSong Logo-->
+            </div>
+            <div class="other-flex"> <!--SilkSong Description-->
+                <p class="font-size" style="color: beige;">
+                    Discover a vast, haunted kingdom in 
+                    <br>
+                    Hollow Knight: Silksong! The sequel to the award winning action-adventure. 
+                    <br>
+                    Explore, fight and survive as you ascend to the peak of a land 
+                    <br>
+                    ruled by silk and song.
+                </p>
+            </div>
+        </div>
+        </section-silkSong>
+    </body>
+</html>
